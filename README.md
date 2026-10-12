@@ -1,51 +1,33 @@
 # MindGuard AI
 
-**An AI Studio application starter for a mind- and wellbeing-oriented product concept.**
+An AI Studio application starter for a mind- and wellbeing-oriented product concept.
 
-## Overview
+## Project overview
 
-This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
+This repository includes application source and a local npm development path. Check the current code and screens to determine which workflows are actually implemented.
 
-## Highlights
-
-- Application UI and source code
-- Local development with npm
-- Gemini API configuration for supported interactions
-
-## Technology
-
-Node.js · npm · Gemini API (for configured features)
-
-## Quick start
-
-Prerequisite: a compatible Node.js installation. From a terminal:
+## Getting started
 
 ```bash
- git clone https://github.com/saikishore2410/MindGuard-AI.git
- cd MindGuard-AI
- npm install
-# Add GEMINI_API_KEY to .env.local
-npm run dev
+git clone https://github.com/saikishore2410/MindGuard-AI.git
+cd MindGuard-AI
+npm install
 ```
 
-Configure environment variables locally before launching the app. Use the variable names expected by the current source code, and keep real credentials out of version control.
+Configure only the environment variables required by the source. If Gemini API features are enabled, keep the API key in a local `.env.local` file and out of version control. Start the app using the script defined in `package.json`.
 
-## Build and validation
+## Validation
 
-```bash
-npm run build
-```
+Run the available build, test, and lint scripts. Verify fallback behaviour when configuration is missing and avoid logging sensitive inputs.
 
-Run any test or lint scripts defined in `package.json`. Review the source and deployment configuration before treating the application as production-ready.
+## Responsible scope
 
-## Configuration and limitations
+If used for mental-health or wellbeing content, present the app as informational/supportive software—not diagnosis, treatment, or a substitute for qualified professional care. Clearly state limitations and protect sensitive user data.
 
-If used for mental-health content, position it as informational/supportive software, not a diagnostic tool or substitute for professional care. Never commit API keys.
+## Contributions
 
-## Contributing
-
-Issues and focused pull requests are welcome. Include reproduction steps for bugs and describe the validation performed for changes.
+Focused issues and pull requests with test steps are welcome.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define permitted reuse.
+No license is specified. Add a `LICENSE` file to define reuse terms.
