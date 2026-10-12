@@ -1,5 +1,10 @@
 # MindGuard AI
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/MindGuard-AI) [![Issues](https://img.shields.io/github/issues/saikishore2410/MindGuard-AI)](https://github.com/saikishore2410/MindGuard-AI/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/MindGuard-AI)](https://github.com/saikishore2410/MindGuard-AI/commits/main)
 
 > An AI Studio application starter for a mind- and wellbeing-oriented product concept.
