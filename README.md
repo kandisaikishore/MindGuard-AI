@@ -1,51 +1,43 @@
 # MindGuard AI
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/MindGuard-AI) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/MindGuard-AI)](https://github.com/kandisaikishore/MindGuard-AI/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+MindGuard AI is an AI Studio application starter for a mental-wellbeing-oriented product concept. The repository can serve as a base for supportive information and wellbeing workflows; confirm the actual implemented features and integrations in the current source.
 
+## Project goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/MindGuard-AI) [![Issues](https://img.shields.io/github/issues/saikishore2410/MindGuard-AI)](https://github.com/saikishore2410/MindGuard-AI/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/MindGuard-AI)](https://github.com/saikishore2410/MindGuard-AI/commits/main)
+- Explore supportive, user-centered wellbeing experiences
+- Present information in a clear and approachable interface
+- Use AI only for appropriately scoped assistance, with human judgement retained
+- Treat privacy, safety, and trustworthy content as core requirements
 
-> An AI Studio application starter for a mind- and wellbeing-oriented product concept.
+## Technology and setup
 
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-An AI Studio application starter for a mind- and wellbeing-oriented product concept.
-
-## Project overview
-
-This repository includes application source and a local npm development path. Check the current code and screens to determine which workflows are actually implemented.
-
-## Getting started
+Review the repository's manifests and source to confirm its framework, prerequisites, and AI-provider integration.
 
 ```bash
-git clone https://github.com/saikishore2410/MindGuard-AI.git
+git clone https://github.com/kandisaikishore/MindGuard-AI.git
 cd MindGuard-AI
-npm install
 ```
 
-Configure only the environment variables required by the source. If Gemini API features are enabled, keep the API key in a local `.env.local` file and out of version control. Start the app using the script defined in `package.json`.
+Install dependencies and run the scripts declared by the project configuration. If the application uses an AI API, configure the expected key in an untracked local environment file. Never commit credentials.
 
-## Validation
+## Safety and privacy
 
-Run the available build, test, and lint scripts. Verify fallback behaviour when configuration is missing and avoid logging sensitive inputs.
+MindGuard AI is not a substitute for professional mental-health assessment, diagnosis, treatment, or emergency support. Do not present generated content as clinical advice. Avoid logging or exposing sensitive health information, and do not send private user data to external AI services without appropriate consent and safeguards.
 
-## Responsible scope
+## Quality checklist
 
-If used for mental-health or wellbeing content, present the app as informational/supportive software—not diagnosis, treatment, or a substitute for qualified professional care. Clearly state limitations and protect sensitive user data.
+- Review wellbeing content for accuracy and supportive wording
+- Test privacy boundaries, permissions, and data retention
+- Verify accessible and responsive interface behaviour
+- Handle model/API errors without exposing secrets
+- Make limitations and appropriate support options clear
 
-## Contributions
+## Contributing
 
-Focused issues and pull requests with test steps are welcome.
+Submit focused changes with reproduction steps and validation notes. Changes affecting wellbeing or AI safety should explain the intended user impact and relevant safeguards.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define reuse terms.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
